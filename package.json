@@ -1,7 +1,7 @@
 {
-  "name": "passport-openidconnect",
-  "version": "0.0.2",
-  "description": "OpenID Connect authentication strategy for Passport.",
+  "name": "@passport-next/passport-openidconnect",
+  "version": "1.0.0",
+  "description": "OpenID Connect authentication strategy for Passport-Next.",
   "keywords": [
     "passport",
     "openid",
@@ -11,17 +11,16 @@
     "authentication",
     "identity"
   ],
-  "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
+  "author": {  
+    "name": "Adam Hathcock",
+    "email": "adam@hathcock.co.uk"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-openidconnect.git"
+    "url": "git://github.com/passport-next/passport-openidconnect.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-openidconnect/issues"
+    "url": "http://github.com/passport-next/passport-openidconnect/issues"
   },
   "license": "MIT",
   "licenses": [
@@ -33,21 +32,21 @@
   "main": "./lib",
   "dependencies": {
     "oauth": "0.9.x",
-    "passport-strategy": "1.x.x",
+    "@passport-next/passport-strategy": "1.1.0",
     "request": "^2.75.0",
     "webfinger": "0.4.x"
   },
   "devDependencies": {
-    "chai": "2.x.x",
-    "chai-passport-strategy": "1.x.x",
-    "jsonwebtoken": "^7.1.9",
+    "@passport-next/chai-passport-strategy": "1.1.0",
+    "jsonwebtoken": "^8.4.0",
     "make-node": "0.3.x",
-    "mocha": "2.x.x",
-    "proxyquire": "^1.7.10",
-    "sinon": "^1.17.6"
+    "mocha": "5.x.x",
+    "chai": "4.x.x",
+    "proxyquire": "^2.1.0",
+    "sinon": "^7.1.1"
   },
   "engines": {
-    "node": ">= 0.6.0"
+    "node": ">= 6"
   },
   "scripts": {
     "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js"

@@ -1,6 +1,6 @@
 # Passport-OpenID Connect
 
-[Passport](https://github.com/jaredhanson/passport) strategy for authenticating
+[Passport](https://github.com/passport-next/passport) strategy for authenticating
 with [OpenID Connect](http://openid.net/connect/).
 
 This module lets you authenticate using OpenID Connect in your Node.js
@@ -11,12 +11,4 @@ including [Express](http://expressjs.com/).
 
 ## Credits
 
-  - [Jared Hanson](http://github.com/jaredhanson)
-
-## License
-
-[The MIT License](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2011-2013 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
-
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/vK9dyjRnnWsMzzJTQ57fRJpH/jaredhanson/passport-openidconnect'>  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/vK9dyjRnnWsMzzJTQ57fRJpH/jaredhanson/passport-openidconnect.svg' /></a>
+- [Jared Hanson](http://github.com/jaredhanson)
